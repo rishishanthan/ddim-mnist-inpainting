@@ -96,12 +96,25 @@ Run.md
 
 ## Results
 
+```json
 {
   "psnr_hole": 14.41,
   "l1_hole": 0.201
 }
+```
 
 Some qualitative results are in results/:
 
 panel_final.png – input / masked / inpainted
 samples.png – grid of inpainted digits
+
+## How to Run
+
+1. Install dependencies (PyTorch + torchvision, etc.).
+2. Open DDIM_Inpainting.ipynb in Jupyter or Google Colab (GPU recommended).
+3. Run all cells top to bottom to:
+  - train the model
+  - generate inpainting samples
+  - compute validation metrics.
+
+See Run.md for exact machine specs and the precise training call.

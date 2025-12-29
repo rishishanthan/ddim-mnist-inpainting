@@ -85,7 +85,7 @@ This call:
 - Uses a cosine β schedule with steps=400,
 - Saves the final checkpoint to last.pt (as implemented in the notebook).
 
-2. Sampling / Inpainting
+### 2. Sampling / Inpainting
 
 After training (or after last.pt already exists), I run the Sampling cell.
 
@@ -112,7 +112,7 @@ That cell:
 
 There is no separate shell command; sampling is executed by running that Sampling code cell in the notebook.
 
-3. Evaluation
+### 3. Evaluation
 For evaluation, I run the Evaluation cell after sampling.
 That cell:
 1. Uses the same model and diffusion setup as in sampling:
@@ -134,4 +134,5 @@ That cell:
 4. Saves the metrics to:
   ```text
   inpaint_metrics.json
-```
+  ```
+The evaluation call is contained entirely in that Evaluation notebook cell; it reuses the same diffusion configuration as training and sampling.

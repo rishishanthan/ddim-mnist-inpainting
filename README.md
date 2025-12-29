@@ -87,3 +87,6 @@ train(
 
     grad_accum=1,
 )
+```
+
+For more details about environment and exact run commands, see: ** Run.md **

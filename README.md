@@ -93,3 +93,15 @@ For more details about environment and exact run commands, see:
 ```text
 Run.md
 ```
+
+## Results
+
+{
+  "psnr_hole": 14.41,
+  "l1_hole": 0.201
+}
+
+Some qualitative results are in results/:
+
+panel_final.png – input / masked / inpainted
+samples.png – grid of inpainted digits

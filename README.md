@@ -5,7 +5,7 @@ This project implements DDIM-based image inpainting on 32×32 MNIST digits.
 The task:  
 take a digit image, **cut out a central square (hole)**, and train a diffusion model to fill the missing region so it looks like a realistic MNIST digit.
 
-The implementation follows the CSE 573 Project 2 spec and re-implements:
+Spec and Implements:
 
 - sinusoidal time embeddings
 - residual blocks with time injection
@@ -16,7 +16,7 @@ The implementation follows the CSE 573 Project 2 spec and re-implements:
 
 Everything is implemented in a single notebook:
 
-> `DDIM_Inpainting_Student.ipynb`
+> `DDIM_Inpainting.ipynb`
 
 ---
 

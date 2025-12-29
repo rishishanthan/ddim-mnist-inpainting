@@ -86,6 +86,7 @@ This call:
 - Saves the final checkpoint to last.pt (as implemented in the notebook).
 
 2. Sampling / Inpainting
+
 After training (or after last.pt already exists), I run the Sampling cell.
 
 That cell:

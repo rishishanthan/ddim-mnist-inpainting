@@ -30,7 +30,7 @@ No custom CUDA/C++ extensions were used.
 
 All commands are run inside:
 
-> `DDIM_Inpainting_Student.ipynb`
+> `DDIM_Inpainting.ipynb`
 
 in order, from top to bottom.
 

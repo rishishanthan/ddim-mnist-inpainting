@@ -118,3 +118,11 @@ samples.png – grid of inpainted digits
   - compute validation metrics.
 
 See Run.md for exact machine specs and the precise training call.
+
+### Pretrained checkpoint
+The final trained model checkpoint (`last.pt`) is available in the GitHub release:
+
+- [Download last.pt (v1.0.0)](https://github.com/<your-username>/<your-repo>/releases/download/v1.0.0/last.pt)
+
+To use it, place `last.pt` in the project root (next to `DDIM_Inpainting.ipynb`)
+and run the sampling/evaluation cells. They will automatically load the checkpoint.
